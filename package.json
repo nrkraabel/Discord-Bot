@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/nrkraabel/Discord-Bot#readme",
   "dependencies": {
-    "discord-tictactoe": "^4.1.1"
+    "discord-tictactoe": "^4.1.1",
+    "dotenv": "^16.0.3"
   }
 }

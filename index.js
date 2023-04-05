@@ -1,8 +1,10 @@
+require("dotenv").config();
 const TicTacToe = require("discord-tictactoe");
+const TOKEN = process.env.BOT_TOKEN;
 
+console.log(process.env.BOT_TOKEN);
 new TicTacToe({
-  token:
-    "MTA5MjkyNjI0OTM0NjgxNDA3Mg.Glbsml.0gOwLkcDmsFHSOFfGVpLdCiz74sHl0TzOKIJK4",
+  token: TOKEN,
   language: "en",
   command: "tictactoe",
   commandOptionName: "opponent",
