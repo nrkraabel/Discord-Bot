@@ -11,4 +11,3 @@ def handle_response(message) -> str:
     if process_message == 'help':
         return '`Help info: this should be info on how to use the bot but I am lazy.`'
     
-    return "Not a proper command"

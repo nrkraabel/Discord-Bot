@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "a tictactoe bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrkraabel/Discord-Bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Nicholas Kraabel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkraabel/Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/nrkraabel/Discord-Bot#readme",
+  "dependencies": {
+    "discord-tictactoe": "^4.1.1"
+  }
+}
